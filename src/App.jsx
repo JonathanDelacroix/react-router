@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router'
 import Home from './pages/Home.jsx'
-import './App.css'
 import Layout from './components/Layout';
 import Category from './pages/Category.jsx';
 import NotFound from './pages/NotFound';
@@ -17,4 +16,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

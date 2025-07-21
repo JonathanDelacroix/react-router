@@ -1,5 +1,8 @@
-function Footer() {
-    return <p>Footer</p>
+function Footer () {
+    return <footer className="bg-dark text-white text-center py-2 mt-auto">
+        Footer
+    </footer>
 }
+
 
 export default Footer;

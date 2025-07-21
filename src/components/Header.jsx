@@ -10,11 +10,11 @@ function Header() {
       <Navbar bg="light" expand="lg">
         <Container>
             <div>
-              {match ? (
+              {match && (
                 <span>
                   Catégorie : {match.params.category}
                 </span>
-              ) : null}
+              )}
             </div>
             <Navbar.Collapse id="navbar-nav" className="justify-content-end">
               <Nav>

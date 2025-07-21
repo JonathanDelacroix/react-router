@@ -9,9 +9,9 @@ function Header() {
         <Container>
           <Navbar.Collapse id="navbar-nav" className="justify-content-end">
             <Nav>
-              <Nav.Link as={NavLink} to="/" className={({ isActive }) => (isActive ? 'active nav-link' : 'nav-link')}>Accueil</Nav.Link>
-              <Nav.Link as={NavLink} to="/categorie/vetements" className={({ isActive }) => (isActive ? 'active nav-link' : 'nav-link')}>Vêtements</Nav.Link>
-              <Nav.Link as={NavLink} to="/categorie/chaussures" className={({ isActive }) => (isActive ? 'active nav-link' : 'nav-link')}>Chaussures</Nav.Link>
+              <Nav.Link as={NavLink} to="/" >Accueil</Nav.Link>
+              <Nav.Link as={NavLink} to="/categorie/vetements" >Vêtements</Nav.Link>
+              <Nav.Link as={NavLink} to="/categorie/chaussures" >Chaussures</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
